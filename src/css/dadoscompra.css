@@ -1,0 +1,294 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    text-decoration: none;
+    
+    list-style: none;
+}
+
+a {
+    color: #fff;
+}
+
+:root {
+    --laranja: #F05829;
+    --preto: #000;
+    --btn-hover: #c64721;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    width: 100%;
+    background-color: #22272E;
+    border-bottom: 3px solid var(--laranja);
+    padding: 20px;
+}
+
+.logo {
+    color: #fff;
+}
+
+.logo{
+    margin-left: 30px;
+    display: flex;
+    color: white;
+    
+}
+
+.logo span{
+    color: #F05829;
+    margin-left: 5px;
+}
+
+
+.conteudo {
+    max-width: 1400px;
+    margin: auto;
+    padding: 15px;
+}
+
+#atual {
+    color: var(--laranja);
+    /* border-bottom: 2px solid #82A8D9; */
+}
+
+/* btns */
+
+.btns {
+    display: flex;
+    gap: 10px;
+}
+
+.btn_assinar {
+    height: 50px;
+    padding: 0px 50px;
+    border-radius: 10px;
+    background-color: var(--laranja);
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    transition: 0.5s all;
+    outline: none;
+}
+
+.login {
+    background-color: transparent;
+    border: 2px solid var(--laranja);
+}
+
+.btn_assinar:hover {
+    background-color: var(--btn-hover);
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 300px;
+    background: url('../image/background.jfif');
+    background-size: cover;
+    background-position: 50%;
+    background-repeat: no-repeat;
+}
+
+.title {
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+
+.left-border, .right-border {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    width: 50px; /* Ajuste a largura conforme necessário */
+    background-image: url('/src/image/Component\ 13.png');
+    background-repeat: repeat-y;
+    z-index: -1; /* Para que as bordas fiquem atrás do conteúdo */
+}
+
+.left-border {
+    left: 0;
+    background-position: left;
+}
+
+.right-border {
+    right: 0;
+    background-position: right;
+}
+
+.content {
+    width: 100%;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    position: relative; 
+}
+
+.container {
+    width: 80%;
+    max-width: 600px;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+/* Estilo do cabeçalho */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+/* Link de trocar plano */
+.trocar {
+    color: #FF4500;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Estilo do plano selecionado */
+.plan {
+    border: 2px solid #FF4500;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+.plan-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.plan-subtitle {
+    color: #1E90FF;
+    margin: 10px 0;
+}
+
+.plan-price {
+    color: #A9A9A9;
+    font-size: 14px;
+}
+
+/* Estilo da seção de pagamento */
+.subscribe {
+    border: 1px solid #FF4500;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.subscribe-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.subscribe-subtitle {
+    color: #A9A9A9;
+    margin: 10px 0;
+}
+
+.price-highlight {
+    color: #1E90FF;
+    font-weight: bold;
+}
+
+.subscribe h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.subscribe h2 .lock-icon {
+    color: #FF4500;
+}
+
+/* Estilo dos ícones de cartões */
+.card-icons {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.card-icons img {
+    width: 50px;
+    height: 30px;
+    margin: 0 10px;
+}
+
+/* Estilo do formulário de pagamento */
+.subscribe form {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Grupo de input */
+.subscribe form .input-group {
+    margin-bottom: 15px;
+}
+
+/* Espaçamento e estilo dos labels */
+.subscribe form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+/* Estilo dos inputs */
+.subscribe form input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #C2BDBD;
+}
+
+/* Grupo de input em linha */
+.subscribe form .input-group.inline {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Estilo dos divs dentro do grupo inline */
+.subscribe form .input-group.inline > div {
+    width: 48%;
+}
+
+/* Estilo do botão de envio */
+.subscribe form button {
+    padding: 15px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #FF4500;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Estilo do botão de envio ao passar o mouse */
+.subscribe form button:hover {
+    background-color: #c13603;
+}
+
+/* Estilo para os campos alinhados à esquerda */
+.subscribe form .input-group.left-align {
+    text-align: left;
+}
+
+.subscribe form .input-group.left-align label,
+.subscribe form .input-group.left-align input {
+    width: 100%;
+}

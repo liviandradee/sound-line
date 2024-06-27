@@ -1,0 +1,97 @@
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+.principal {
+    display: flex;
+    max-width: 1440px;
+}
+.imagem-login img {
+    max-height: 100vh;
+    max-width: 100%;
+
+}
+
+.form-login img {
+    width: 100px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+.form-login {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    margin: 0 auto;
+   
+}
+
+.form-login h2 {
+    font-size: 48px;
+    color: #22272E;
+    font-weight: 700;
+}
+
+.form-login p {
+    font-size: 12px;
+    color: #22272E;
+}
+
+.form-login span {
+    color: #0D6EFD;
+    text-decoration: underline;
+}
+
+
+.inputs img {
+position: absolute;
+right: 230px;
+
+margin: 35px;
+}
+.inputs label {
+    font-weight: 600;
+}
+.inputs input {
+    background-color: #F9FAFB;
+    padding: 10px;
+    border: 1px solid;
+    border-color: #d7d5d5;
+    border-radius: 4px;
+    text-align: left;
+}
+
+.inputs a {
+   margin-left: 400px;
+    color: #0D6EFD;
+    text-decoration: underline;
+    font-size: 12px;
+    font-weight: 300;
+}
+.inputs {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+}
+.inputs img {
+    width: 20px;
+}
+
+.logar {
+    background-color: #F05829;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    color: #FFFFFF;
+    font-weight: 500;
+    margin-top: 40px;
+}
+
+
+
+
