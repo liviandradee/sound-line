@@ -16,10 +16,10 @@ const music = new Audio();
 
 const songs = [
     {
-        path: 'src/audio/1.mp3',
-        displayName: 'This is how it ends',
-        cover: 'src/image/capa-e-assim-que-acaba.jpg',
-        artist: 'Colleen Hoover',
+        path: 'src/audio/A Chegada do Hobgoblin _ A Lenda de Ruff Ghanor - Áudio Drama 1.MP3',
+        displayName: 'A lenda de Ruff Ghanor',
+        cover: 'src/image/a-lenda-de-ruff-ghanor.jpg',
+        artist: 'Leonel Cadela',
     },
     {
         path: 'src/audio/3.mp3',
