@@ -508,7 +508,7 @@ form [type="submit"]:hover{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #074196;
+    background-color: #03A65A;
     width: 200px;
     height: 60px;
     border-radius: 5px;
@@ -519,7 +519,7 @@ form [type="submit"]:hover{
 }
 
 .content_up>.btn:hover {
-    background-color: #072e69;
+    background-color: #03A65A;
     color: #fff;
 }
 
@@ -578,14 +578,14 @@ form [type="submit"]:hover{
     font-size: 1.5rem;
     height: 40%;
     width: 45%;
-    background-color: #072e69;
+    background-color: #03A65A;
     border-radius: 5px;
     cursor: pointer;
     transition: 0.5s all;
 }
 
 .social_icon:hover {
-    background-color: #033a8c;
+    background-color: #03A65A;
 }
 
 .direitos {
