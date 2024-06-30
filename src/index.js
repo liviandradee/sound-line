@@ -16,7 +16,7 @@ const music = new Audio();
 
 const songs = [
     {
-        path: 'src/audio/A Chegada do Hobgoblin _ A Lenda de Ruff Ghanor - Áudio Drama 1.MP3',
+        path: 'src/audio/A-Chegada-do-Hobgoblin-A Lenda-de-Ruff-Ghanor-Áudio-Drama-1.mp3',
         displayName: 'A lenda de Ruff Ghanor',
         cover: 'src/image/a-lenda-de-ruff-ghanor.jpg',
         artist: 'Leonel Cadela',
