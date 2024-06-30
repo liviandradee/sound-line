@@ -16,6 +16,7 @@
 
 <body>
 
+
     <div vw class="enabled">
         <div vw-access-button class="active"></div>
         <div vw-plugin-wrapper>
@@ -40,7 +41,7 @@
                 <a href="indexIngles.html"> <img src="/src/image/bandeira-estados-unidos.png" alt=""></a>
             </div>
 
-        
+
 
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -90,6 +91,11 @@
                     aria-controls="navbarNavMobile" aria-expanded="true" aria-label="Toggle navigation">
                     <span aria-hidden="true">&times;</span>
                 </button>
+
+                <div class="trilho" id="trilho">
+                    <div class="indicador"></div>
+                </div>
+
                 <div class="btns btns_mobile">
                     <a href="login.html" target="_blank">
                         <button class="btn_assinar login">
@@ -106,7 +112,7 @@
                 </div>
                 <ul class="navbar-nav nav_mobile">
                     <li><a class="nav_item" href="play-books.html">AudioDramas</a></li>
-                    <li><a class="nav_item" href="#">Funcionalidades</a></li>
+
                     <li><a class="nav_item" href="planos.html" id="atual">Planos</a></li>
                     <li><a class="nav_item" href="sobrenos.html">Sobre os Herois</a></li>
                 </ul>
@@ -256,8 +262,11 @@
 
 
         <div class="direitos">
-            <p class="direitos_text">© Copyright 2024 - Todos os Direitos Reservados.</p>
+            <p class="direitos_text">
+            <p>&copy; 2024 Sound Line. Todos os direitos reservados.</p>
         </div>
+
+
 
     </footer>
 
@@ -268,6 +277,22 @@
     <script src="src/js/script.js"></script>
     <script src="src/js/locales.js"></script>
     <script src="https://unpkg.com/i18next@21.6.0/dist/umd/i18next.min.js"></script>
+    <script src="src/js/load_astv_script.js"></script>
+    <script>
+        (function () {
+            var s = document.createElement('script');
+            var h = document.querySelector('head') || document.body;
+            s.charset = "UTF-8";
+            s.src = "https://cdn.assistive.com.br/plugin/AssistiveWebPlugin.js";
+            s.async = true;
+            s.onload = function () {
+                assistive.init({});
+                h.appendChild(s);
+            };
+        })();
+    </script>
+
+
 </body>
 
 </html>
