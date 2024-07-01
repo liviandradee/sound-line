@@ -22,10 +22,10 @@ const songs = [
         artist: 'Leonel Cadela',
     },
     {
-        path: 'src/audio/3.mp3',
-        displayName: 'O segredo nas sombras',
-        cover: 'src/image/capa-o-segredo-nas-sombras.jpg',
-        artist: 'Yung Logos',
+        path: 'src/audio/A-Aventura-no-Reino-Encantado.mp3',
+        displayName: 'A Aventura no Reino Encantado',
+        cover: 'src/image/A-Aventura no-Reino Encantado.jpg',
+        artist: 'gepeto',
     },
     {
         path: 'src/audio/2.mp3',
