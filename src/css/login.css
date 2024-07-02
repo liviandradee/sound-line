@@ -1,8 +1,7 @@
-
-* {
+*{
     margin: 0px;
     padding: 0px;
-    box-sizing: border-box;
+    box-sizing: "border-box";
     font-family: "Poppins", sans-serif;
 }
 
@@ -10,10 +9,10 @@
     display: flex;
     max-width: 1440px;
 }
+
 .imagem-login img {
     max-height: 100vh;
     max-width: 100%;
-
 }
 
 .form-login img {
@@ -28,7 +27,7 @@
     justify-content: center;
     align-items: left;
     margin: 0 auto;
-   
+
 }
 
 .form-login h2 {
@@ -49,14 +48,15 @@
 
 
 .inputs img {
-position: absolute;
-right: 230px;
-
-margin: 35px;
+    position: absolute;
+    right: 230px;
+    margin: 35px;
 }
+
 .inputs label {
     font-weight: 600;
 }
+
 .inputs input {
     background-color: #F9FAFB;
     padding: 10px;
@@ -67,17 +67,19 @@ margin: 35px;
 }
 
 .inputs a {
-   margin-left: 400px;
+    margin-left: 400px;
     color: #0D6EFD;
     text-decoration: underline;
     font-size: 12px;
     font-weight: 300;
 }
+
 .inputs {
     display: flex;
     flex-direction: column;
     margin-top: 40px;
 }
+
 .inputs img {
     width: 20px;
 }
@@ -92,6 +94,43 @@ margin: 35px;
     margin-top: 40px;
 }
 
+@media (max-width: 1100px) {
+    img {
+        display: none;
+    }
+
+    .principal {
+        margin-top: 150px;
+    }
+}
+
+@media (max-width: 700px) {
+
+    .inputs {
+        margin: 20px
+    }
+
+}
+
+@media (max-width: 600px) {
 
 
+    .principal h2 {
+        text-align: center;
+        font-size: 30px;
+    }
 
+    .principal p {
+        text-align: center;
+    }
+
+    .principal a {
+        margin: auto;
+    }
+
+    .logar {
+        justify-content: center;
+        margin-left: 100px;
+
+    }
+}
