@@ -28,10 +28,10 @@ const songs = [
         artist: 'gepeto',
     },
     {
-        path: 'src/audio/2.mp3',
-        displayName: 'Vovó virou semente',
-        cover: 'src/image/capa-vovo-virou-semente.jpg',
-        artist: 'NEFFEX',
+        path: 'src/audio/EcosdaMente.mp3',
+        displayName: 'Ecos da Mente',
+        cover: 'src/image/EcosdaMente.jpg',
+        artist: 'Marina Costa',
     }
 ];
 
