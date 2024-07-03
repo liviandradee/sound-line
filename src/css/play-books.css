@@ -109,6 +109,42 @@ body {
     cursor: pointer;
 }
 
+.header-play-books {
+    margin-bottom: 2rem;
+}
+
+.header-play-books,
+.container-player {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-player {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+}
+
+.player-controls {
+    margin-top: 1rem;
+}
+
+.player-controls img,
+.fa-solid {
+    transition: transform 0.3s ease;
+}
+
+.player-controls img:hover,
+.fa-solid:hover {
+    transform: scale(1.1);
+}
+
+.container-book img {
+    max-width: 100%;
+    height: auto;
+}
+
 @media screen and (max-width: 1023px) {
     .player-progress {
         width: 55%;

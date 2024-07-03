@@ -24,13 +24,13 @@ const songs = [
     {
         path: 'src/audio/A-Aventura-no-Reino-Encantado.mp3',
         displayName: 'A Aventura no Reino Encantado',
-        cover: 'src/image/A-Aventura no-Reino Encantado.jpg',
-        artist: 'gepeto',
+        cover: 'src/image/A-Aventurano-ReinoEncantado.jpg',
+        artist: 'Gustavo Bill',
     },
     {
         path: 'src/audio/EcosdaMente.mp3',
         displayName: 'Ecos da Mente',
-        cover: 'src/image/EcosdaMente.jpg',
+        cover: 'src/image/ecosdamente.jpg',
         artist: 'Marina Costa',
     }
 ];
