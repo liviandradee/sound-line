@@ -17,12 +17,25 @@ body {
 .header-play-books {
     background-color: #22272E;
     color: white;
-    padding: 2.2rem 0;
+    padding: 1rem 2rem;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-play-books .logo img {
+    width: 50px;
+}
+
+.header-play-books .header-text {
+    flex: 1;
     text-align: center;
 }
 
 .header-play-books h1 {
     font-weight: 100;
+    margin: 0;
 }
 
 .header-play-books h3 {
@@ -107,18 +120,6 @@ body {
 .player-controls img {
     width: 40px;
     cursor: pointer;
-}
-
-.header-play-books {
-    margin-bottom: 2rem;
-}
-
-.header-play-books,
-.container-player {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
 }
 
 .container-player {
