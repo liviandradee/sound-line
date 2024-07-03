@@ -30,8 +30,14 @@ const songs = [
     {
         path: 'src/audio/EcosdaMente.mp3',
         displayName: 'Ecos da Mente',
-        cover: 'src/image/EcosdaMente.jpg',
+        cover: 'src/image/ecosdamente3.jpg',
         artist: 'Marina Costa',
+    },
+    {
+        path: 'src/audio/medieval.mp3',
+        displayName: 'Medieval',
+        cover: 'src/image/medieval.jpg',
+        artist: 'Gabriel Augusto',
     }
 ];
 
