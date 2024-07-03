@@ -30,7 +30,7 @@ const songs = [
     {
         path: 'src/audio/EcosdaMente.mp3',
         displayName: 'Ecos da Mente',
-        cover: 'src/image/ecosdamente.jpg',
+        cover: 'src/image/EcosdaMente.jpg',
         artist: 'Marina Costa',
     }
 ];
